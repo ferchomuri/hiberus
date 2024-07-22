@@ -1,0 +1,30 @@
+/* NotFound.css */
+
+.container-404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container-404 h1 {
+  font-size: 72px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.message {
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
