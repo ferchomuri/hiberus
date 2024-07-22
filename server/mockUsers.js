@@ -1,13 +1,19 @@
 import { faker } from "@faker-js/faker";
 
-const mockUser = {
-  fullName: "John Doe",
-  email: "john.doe@mail.com",
-  password: "12345678",
-  role: "user",
-};
-
-export const mockLoginUsers = [mockUser];
+export const mockLoginUsers = [
+  {
+    fullName: "John Doe",
+    email: "john.doe@mail.com",
+    password: "12345678",
+    role: "user",
+  },
+  {
+    fullName: "Fernando Murillo",
+    email: "fer@fer.com",
+    password: "12345678",
+    role: "user",
+  }
+];
 
 export function generateListMovies(moviesNum = 10) {
   const listMovies = [];

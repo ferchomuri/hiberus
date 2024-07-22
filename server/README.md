@@ -4,7 +4,12 @@ This is just a mock created for the Hiberus's Test.
 
 ### Login
 
-Admin user:
+users:
+-email: "john.doe@mail.com"
+-password: "12345678"
+
+-email: "fer@fer.com"
+-password: "12345678"
 
 ```
 curl --header "Content-Type: application/json" \
