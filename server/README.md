@@ -12,3 +12,8 @@ curl --header "Content-Type: application/json" \
   --data '{"email":"john.doe@mail.com","password":"123456"}' \
   http://localhost:8080/login
 ```
+
+```
+curl --location 'http://localhost:8080/movies' \
+--header 'Authorization: YOUR_TOKEN
+```
