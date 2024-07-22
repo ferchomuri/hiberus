@@ -1,0 +1,39 @@
+.button {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  height: 40px;
+}
+
+.small-button {
+  width: 100px;
+}
+
+.large-button {
+  width: 150px;
+}
+
+.primary-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.primary-button:hover {
+  background-color: #45a049;
+}
+
+.secondary-button {
+  background-color: #db5a5a;
+  color: white;
+}
+
+.secondary-button:hover {
+  background-color: #b94444;
+  color: white;
+}

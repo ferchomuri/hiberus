@@ -1,0 +1,41 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 3fr;
+  gap: 10px 0px;
+  grid-template-areas:
+    "."
+    ".";
+}
+
+.general-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.subtitle {
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.instructions {
+  font-size: 20px;
+  margin: 20px 0;
+  text-align: center;
+  color: white;
+}
+
+.dropdown-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 5px 0;
+  width: 800px;
+}

@@ -1,0 +1,17 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore .vscode folder
+.vscode/
+
+# Ignore any other build artifacts or temporary files
+
+# Client directory
+/client/node_modules/
+/client/.vscode/
+/client/package-lock.json
+
+# Server directory
+/server/node_modules/
+/server/.vscode/
+/server/package-lock.json
