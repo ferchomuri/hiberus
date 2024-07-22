@@ -9,7 +9,7 @@ Admin user:
 ```
 curl --header "Content-Type: application/json" \
   --request POST \
-  --data '{"email":"john.doe@mail.com","password":"123456"}' \
+  --data '{"email":"john.doe@mail.com","password":"12345678"}' \
   http://localhost:8080/login
 ```
 

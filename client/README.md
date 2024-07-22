@@ -12,7 +12,7 @@ Run test:
 npm run test
 ```
 
-The client application is developed using React JS, HTML, and CSS in their most recent versions compatible with the dependencies used. Each component has unit testing. However, the application does not yet have integration testing, as I am still learning in this area.
+The client application is developed using React JS, HTML, and CSS in their most recent versions compatible with the dependencies used. Each component has unit testing. However, the application does not yet have integration testing, as I am still learning in this area. I also didn't have time to make a responsive and more user-friendly design.
 
 ### Project Structure
 
